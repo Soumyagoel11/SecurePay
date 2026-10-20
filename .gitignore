@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.db
+logs/
+*.log
+.pytest_cache/
+.env
+backend/.env
+
+# Model artifacts (regenerate with: python -m ml.train_model)
+backend/ml/model.pkl
+backend/ml/scaler.pkl
+backend/ml/metrics.txt
+backend/ml/banksim_benchmark.txt
+
+# Node
+node_modules/
+dist/
+build/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
